@@ -1,4 +1,4 @@
-// ### 1. 基本的な変数の宣言
+//　### 1. 基本的な変数の宣言
 
 // 以下の指定された条件に合うように、変数をTypeScriptで宣言し、値を代入してください。
 
@@ -17,30 +17,20 @@ let test: null = null;
 let num1: number = 8;
 let num2: number = 2;
 // - 足し算
-let sum;
-sum = num1 + num2;
+let sum = num1 + num2;
 console.log(sum);
-
 // - 引き算
-let difference;
-difference = num1 - num2;
+let difference = num1 - num2;
 console.log(difference);
-
 // - 掛け算
-let product;
-product = num1 * num2;
+let product = num1 * num2;
 console.log(product);
-
-// - 割り算
-let quotient;
-quotient = num1 / num2;
+//; - 割り算
+let quotient = num1 / num2;
 console.log(quotient);
-
 // - 割り算の余り
-let remainder;
-remainder = num1 % num2;
+let remainder = num1 % num2;
 console.log(remainder);
-
 
 // ### 3. 条件式とboolean(論理型)について
 
@@ -49,17 +39,16 @@ let isEven: boolean = false;
 
 // 問題2で宣言した2つの整数を足した結果が偶数であれば、論理型の変数に`true`を代入してください。
 if (sum % 2 === 0) {
-    isEven = true;
+	isEven = true;
 }
 
 // ### 4. 条件式
 
 // 設問3のboolean型の変数を使用し、偶数か奇数かを判定する条件式を作成し、次のように出力してください。
-
-// - 偶数なら「偶数です」と表示
 if (isEven === true) {
-    console.log("偶数です");
+	console.log("偶数です");
 } else {
-    console.log("奇数です");
+	console.log("奇数です");
 }
+// - 偶数なら「偶数です」と表示
 // - 奇数なら「奇数です」と表示
